@@ -1,0 +1,66 @@
+;; 'super' is the windows-key or apple-key
+;; super for OS meta operations
+;; super+alt to open app (include shift to open new instance)
+;; super+alt+number to open app from app bar (include shift to open new instance)
+;; super+alt+control reserved for user
+;; alt default reserved for the focused app's shortcuts
+;; control default reserved for common system-wide shortcuts
+
+default [
+  control [
+    a select-all
+    c copy
+    f find
+    n new
+    o open
+    q close-app
+    s save
+    v paste
+    x cut
+    z undo
+    page-down select-previous-tab
+    page-up select-next-tab
+    tab select-next-tab
+    shift [
+      s save-new-instance
+      z redo
+      page-down move-tab-to-next
+      page-up move-tab-to-previous
+      tab select-previous-tab
+    ]
+  ]
+  super [
+    alt [
+      search
+      a open-audio-app
+      b open-browser-app
+      c open-calculator-app
+      f open-file-app
+      g open-game-app
+      i open-image-app
+      m open-media-app
+      t open-text-app
+      v open-video-app
+    ]
+    control [
+      1 select-desktop-1
+      2 select-desktop-2
+      3 select-desktop-3
+      4 select-desktop-4
+      down snap-window-down
+      down-left snap-window-down-left
+      down-right snap-window-down-right
+      left snap-window-left
+      right snap-window-right
+      up snap-window-up
+      up-left snap-window-up-left
+      up-right snap-window-up-right
+      shift [
+        1 move-window-to-desktop-1
+        2 move-window-to-desktop-2
+        3 move-window-to-desktop-3
+        4 move-window-to-desktop-4
+      ]
+    ]
+  ]
+]
