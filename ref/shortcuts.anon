@@ -30,6 +30,7 @@ default [
     ]
   ]
   super [
+    space search
     alt [
       search
       a open-audio-app
