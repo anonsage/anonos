@@ -1,3 +1,15 @@
+;; Package Manager
+;; Manage apps and libs.
+
+add app-name version=latest [ ... ]
+remove app-name version=all [ ... ]
+publish app-name [ ... ]
+
+start app-name [ ... ]
+stop app-name [ ... ]
+force-stop app-name [ ... ]
+remove-cache app-name [ ... ]
+
 get-app app-name [ ... ]
 get-lib lib-name [ ... ]
 
