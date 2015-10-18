@@ -1,11 +1,12 @@
-A few apps come with AnonOS by default:
+A few apps come with AnonOS by default, and each accept plugins:
 
-- Audio editor and viewer
+- App viewer/launcher/desktop
+- Audio editor, recorder, viewer
 - Calculator
-- File explorer
-- Game explorer
-- Image editor and viewer
-- Internet browser
+- Files viewer
+- Games viewer
+- Image editor, viewer
+- Internet viewer
 - Media explorer
-- Text editor and viewer
-- Video editor and viewer
+- Text editor, viewer
+- Video editor, recorder, viewer
