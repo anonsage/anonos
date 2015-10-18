@@ -1,0 +1,9 @@
+;; Can be mouse or touchpad.
+is-pointer-available [ ... ]
+is-keyboard-available [ ... ]
+is-screen-available [ ... ]
+get-screen-count [ ... ]
+
+is-speaker-available [ ... ]
+is-microphone-available [ ... ]
+is-camera-available [ ... ]
