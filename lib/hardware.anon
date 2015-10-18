@@ -20,6 +20,7 @@ alias screen [
   alias type
   alias tv type
   alias desktop type
+  alias vehicle type
   alias phone type
   alias watch type
 ]
