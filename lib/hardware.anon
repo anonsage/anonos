@@ -7,3 +7,8 @@ get-screen-count [ ... ]
 is-speaker-available [ ... ]
 is-microphone-available [ ... ]
 is-camera-available [ ... ]
+
+is-printer-available [ ... ]
+
+get-screens [ ... ]
+get-sensors [ ... ]
