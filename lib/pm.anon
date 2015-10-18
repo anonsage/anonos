@@ -1,0 +1,18 @@
+get-app app-name [ ... ]
+get-lib lib-name [ ... ]
+
+get-apps [ ... ]
+get-libs [ ... ]
+
+alias package [
+  alias name
+  alias description
+  alias version
+  alias author
+  alias logo
+  alias install-date
+]
+alias app package [
+  alias open
+]
+alias lib package
