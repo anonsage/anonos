@@ -1,0 +1,21 @@
+;; Third-party example: http://developer.android.com/reference/android/os/FileObserver.html
+
+alias event
+alias all event
+alias create event
+alias delete event
+alias modify event
+alias modify-meta event
+alias open event
+alias close event
+
+;; path can be file or directory
+input path events=all
+
+alias start
+
+alias stop
+
+alias on-event [
+  input event path
+]
