@@ -10,5 +10,16 @@ is-camera-available [ ... ]
 
 is-printer-available [ ... ]
 
+is-wifi-available [ ... ]
+is-network-available [ ... ]
+
 get-screens [ ... ]
 get-sensors [ ... ]
+
+alias screen [
+  alias type
+  alias tv type
+  alias desktop type
+  alias phone type
+  alias watch type
+]
