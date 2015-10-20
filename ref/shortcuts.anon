@@ -30,18 +30,34 @@ default [
     ]
   ]
   super [
-    space search
+    0 open-apps-prompt
+    1 open-app-1
+    2 open-app-2
+    3 open-app-3
+    4 open-app-4
+    5 open-app-5
+    6 open-app-6
+    7 open-app-7
+    8 open-app-8
+    9 open-apps-quick-prompt
+    ` focus-quick-settings
+    esc focus-system-settings
+    space focus-system-search
     alt [
       search
       a open-audio-app
       b open-browser-app
       c open-calculator-app
+      e open-email-app
       f open-file-app
       g open-game-app
       i open-image-app
+      k open-calendar-app
       m open-media-app
+      s open-social-app ;; Includes chat
       t open-text-app
       v open-video-app
+      esc open-system-app
     ]
     control [
       1 select-desktop-1
