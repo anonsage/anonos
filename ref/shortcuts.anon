@@ -54,6 +54,7 @@ default [
       i open-image-app
       k open-calendar-app
       m open-media-app
+      n open-network-app
       s open-social-app ;; Includes chat
       t open-text-app
       v open-video-app
